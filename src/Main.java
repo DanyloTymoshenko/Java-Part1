@@ -9,6 +9,8 @@ public class Main {
 
         int[] array = new int[size];
 
+        //change1
+
 
         System.out.println("Please enter numbers");
 
