@@ -6,7 +6,7 @@ public class Main {
 
 
         /// ////////// WAY 2
-        String r = "";
+        String reversedString = "";
         char ch;
 
         for (int i = 0; i < stringToRevers.length(); i++) {
@@ -14,10 +14,10 @@ public class Main {
             ch = stringToRevers.charAt(i);
 
 
-            r = ch + r;
+            reversedString = ch + reversedString;
         }
 
-        System.out.println(r);
+        System.out.println(reversedString);
         /// //////////////////WAY3
 
 

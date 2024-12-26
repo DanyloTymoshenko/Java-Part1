@@ -1,23 +1,23 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter array size");
 
-        int size = s.nextInt();
+        int size = scanner.nextInt();
 
         int[] array = new int[size];
-        int i=0;
+
 
         System.out.println("Please enter numbers");
 
-        for(i=0; i<size; i++){ array[i] = s.nextInt(); }
+        for(int i=0; i<size; i++){ array[i] = scanner.nextInt(); }
         boolean sorted = true;
 
 
 
-        for(i=1; i<size; i++){
+        for(int i=1; i<size; i++){
                 if(array[i] < array[i - 1]){
                     sorted = false;
                     break;
