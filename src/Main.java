@@ -15,7 +15,7 @@ public class Main {
         for(int i=0; i<size; i++){ array[i] = scanner.nextInt(); }
         boolean sorted = true;
 
-
+        //changed
 
         for(int i=1; i<size; i++){
                 if(array[i] < array[i - 1]){
